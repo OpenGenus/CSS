@@ -1,0 +1,126 @@
+/* 3. Selectors */
+
+    /* Universal selector */
+        /* * {
+            color: green;
+        } */
+
+    /*  Type selector */
+        /* p {
+            color: green;
+        }  */
+
+    /* Class selector */
+        /* .classIdentifier {
+            color: green;
+        }  */
+
+    /* ID selector */
+        /* #idIdentifier {
+            color: green;
+        } */
+
+    /* Descendant selector */
+        /* div p {
+            color: green;
+        } */
+
+    /* Child selector */
+        /* div > p {
+            color: green;
+        } */
+
+    /* Adjacent sibling selector */
+        /* #p2 + p {
+            color: green;
+        } */
+
+    /* General sibling selector */
+        /* #p2 ~ p {
+            color: green;
+        } */
+
+
+/* 6. Box model */
+
+    /* Default */
+        /* div {
+            width: 200px;
+            height: 200px;
+            background: gray;
+
+            padding: 20px;
+            border: 5px solid black;
+            margin: 50px;
+        } */
+
+    /* Box-sizing */
+        /* div {
+            width: 200px;
+            height: 200px;
+            background: gray;
+
+            box-sizing: border-box;
+            padding: 20px;
+            border: 5px solid black;
+            margin: 50px;
+        } */
+
+
+/* 12. Media queries */
+
+    /* Minimum width 1000px */
+        /* @media (min-width: 1000px) {
+                body {
+                    background-color: red;
+                }
+        } */
+
+    /* Maximum width 1000px */
+        /* @media (max-width: 1000px) {
+                body {
+                    background-color: red;
+                }
+        } */
+
+    /* Device orientation landscape */
+        /* @media (orientation: landscape) {
+                body {
+                    background-color: red;
+                }
+        } */
+
+    /* Device orientation portrait */
+            /* @media (orientation: portrait) {
+                body {
+                    background-color: red;
+                }
+        } */
+
+    /* Minimum device resolution 1ddpx  */
+        /* @media (min-resolution: 1ddpx) {
+            body {
+                background-color: red;
+            }
+        } */
+
+    /* Maximum device resolution 1ddpx  */
+        /* @media (max-resolution: 1ddpx) {
+            body {
+                background-color: red;
+            }
+        } */
+
+    /* Content seen on screen */
+        /* @media screen {
+            body {
+                background-color: red;
+            }
+        } */
+
+    /* Content printed */
+        /* @media print {
+            body {
+                background-color: red;
+            }
+        } */
