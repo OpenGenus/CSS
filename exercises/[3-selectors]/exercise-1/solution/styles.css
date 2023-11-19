@@ -1,0 +1,19 @@
+* {
+    font-weight: bold;
+}
+
+p {
+    font-family: cursive;
+}
+
+div {
+    font-family: sans-serif;
+}
+
+.color-purple {
+    color: purple;
+}
+
+#color-green {
+    color: green;
+}
