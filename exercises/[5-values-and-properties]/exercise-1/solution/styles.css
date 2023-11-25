@@ -1,0 +1,12 @@
+div {
+    width: 350px;
+    height: 200px;
+    background-color: #FF6663;
+}
+
+p {
+    color: #E0FF4F;
+    font-size: 20px;
+    float: right;
+    text-decoration: line-through;
+}
