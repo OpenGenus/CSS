@@ -19,3 +19,6 @@ Additional explanations:
 * **Selectors** - you will find additional content to the book, namely some properties inside the selectors in the CSS code. That is intentional! You can now go ahead and run the Selectors code from the HTML with each specific selector from the CSS code, to see how each selector makes the HTML template react. Don't worry about the property for now, just know it's supposed to color the object it selects red! 
 
 ## Exercises
+find some of the most important applications of the content you learned to the way CSS is used in the real world
+
+do note that, for most of the exercises, there is no one correct solution, there being multiple ways that can be applied in order to realize a certain action. Note that the solutions provided are just one of those ways, and, if your code works as intended, it shall be considered correct as well, even if it does not match the provided solution!
