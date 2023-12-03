@@ -1,0 +1,7 @@
+#container > p {
+    color: red;
+}
+
+#container p {
+    font-weight: bold;
+}

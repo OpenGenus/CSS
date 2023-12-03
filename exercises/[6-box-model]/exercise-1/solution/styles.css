@@ -1,0 +1,30 @@
+.container {
+    /* Goal 1 */
+    height: 350px;
+    width: 350px;
+
+    /* Goal 2 */
+    margin: 5rem;
+
+    /* Goal 3 */
+    padding: 1.5em;
+
+    /* Goal 5 */
+    border: 7px solid purple;
+
+}
+
+.content {
+    /* Goal 4 */
+    padding: 1.5em;
+
+    /* Goal 6 */
+    border: 7px solid yellow;
+
+    height: 100%; /* So that the .content div takes up all the space available, rather than shrink */
+}
+
+* {
+    /* Goal 7 */
+    box-sizing: border-box;
+}

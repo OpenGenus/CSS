@@ -1,0 +1,23 @@
+p {
+    color: green !important;
+}
+
+.container #p1 {
+    color: red;
+}
+
+#p1 {
+    color: yellow !important;
+}
+
+.container #p2 {
+    color: blue !important;
+}
+
+.container .div1 #p2 {
+    color: brown;
+}
+
+#p3 {
+    color: purple;
+}

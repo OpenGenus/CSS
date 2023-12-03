@@ -1,0 +1,12 @@
+#p1 ~ p {
+    font-weight: bold;
+}
+
+p + p {
+    margin-top: 100px;
+}
+
+/* Border for the container div, so as to see whether there is any space before the first paragraph or after the last one */
+.container {
+    border: 1px solid black;
+}
