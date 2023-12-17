@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: #fb8500;
+    padding: 1em;
+    font-weight: bolder;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+button:hover {
+    background: white;
+    border: 1px solid #fb8500;
+    color: #fb8500;
+}
