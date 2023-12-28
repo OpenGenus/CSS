@@ -3,7 +3,8 @@
 This is meant to be solved after reading through the **Layout** chapter of the book.
 
 ## Goal/s
-1. Your goal here is to try to imitate the dashboard provided in the preview.PNG file.
+1. Your goal here is to try to im
+itate the dashboard provided in the preview.PNG file.
 
 ## Starting indications 
 This is an exercise that puts into practice everything that we've learned so far.

@@ -5,9 +5,11 @@ This is meant to be solved after reading through the **Values and Properties** c
 This will be the first project you create by yourself entirely! Don't worry, though, you will be guided all throughout it! 
 
 ## Goal/s
-1. Create a div with a width of 150px and a height of 200px. Set its background color to #FF6663.
-2. Create a paragraph inside of it, with the color #E0FF4F. Set its text size to 20px.
-3. Position the paragraph to the right of the div, and make the text be crossed out with a line. 
+1. Create an HTML and a CSS file.
+2. Link them accordingly.
+3. Create a div with a width of 150px and a height of 200px. Set its background color to #FF6663.
+4. Create a paragraph inside of it, with the color #E0FF4F. Set its text size to 20px.
+5. Position the paragraph to the right of the div, and make the text be crossed out with a line. 
 
 ## Starting indications 
 First of all, you have to create the HTML and CSS files. Don't forget to link them together! 

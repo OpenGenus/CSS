@@ -1,4 +1,4 @@
-# Functions - exercise 1
+# Functions - exercise 2
 
 This is meant to be solved after reading through the **Functions** chapter of the book.
 

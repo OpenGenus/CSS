@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+input {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+label {
+    cursor: pointer;
+    width: 100%;
+    display: block;
+}
+
+section > div {
+    display: none;
+}
+
+section {
+    padding: 1.5em;
+    min-width: 250px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#section-profile {
+    background: #ae2012;
+}
+
+#section-work-exp {
+    background: #ee9b00;
+}
+
+#section-volunteering {
+    background: #0a9396;
+}
+
+#section-certifications {
+    background: #588157;
+}
+
+#section-add-achievements {
+    background: #06d6a0;
+}
+#profile:checked ~ #section-profile > div, #work-exp:checked ~ #section-work-exp > div,
+#volunteering:checked ~ #section-volunteering > div, #certifications:checked ~ #section-certifications > div,
+#add-achievements:checked ~ #section-add-achievements > div
+{
+    display: block;
+    min-height: 200px;
+    animation-name: pop-up;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+section > div {
+    text-align: center;
+}
+
+section {
+    transform: skew(7deg);
+    width: 175px;
+}
+@keyframes pop-up {
+    0% {
+        align-self: center;
+        opacity: 0;
+    }
+
+    100% {
+        align-self: flex-start;
+        opacity: 1;
+    }
+}

@@ -13,3 +13,4 @@ All properties needed to solve this exercise can be found within the **Functions
 If, at any point during this exercise, you get stuck and want to see the correct solution, you can access the 'solution' folder, where you will notice:
 1. The same files, only modified to reveal the correct solution.
 2. Video of how the final solution should look like implemented on screen.
+ 
