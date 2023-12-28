@@ -1,4 +1,4 @@
-# Pseudo-classes and pseudo-elements - exercise 2
+# Pseudo-classes and pseudo-elements - exercise 3
 
 This is meant to be solved after reading through the **Pseudo-classes and pseudo-elements** chapter of the book.
 
@@ -7,7 +7,6 @@ This is meant to be solved after reading through the **Pseudo-classes and pseudo
 
 ## Starting indications 
 All properties needed to solve this exercise can be found within the **Pseudo-classes and pseudo-elements** chapter of the book. 
-
 
 ## Solution
 If, at any point during this exercise, you get stuck and want to see the correct solution, you can access the 'solution' folder, where you will notice:
