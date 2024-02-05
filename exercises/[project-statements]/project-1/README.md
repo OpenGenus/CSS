@@ -18,6 +18,7 @@ We will be building a blog preview card, which is, essentially, a concise overvi
 
 4. Design the card. Here are some tips:
     * center it on the page (try it both using flex and using the transform property);
-    * you can use border-radius to give it a bit of an edge. Consider applying it both to the container and the image, if you like;    * make each tag that you place in a container of a specific color (e.g Coding can be red, Learning can be yellow etc.)
+    * you can use border-radius to give it a bit of an edge. Consider applying it both to the container and the image, if you like;    
+    * make each tag that you place in a container of a specific color (e.g Coding can be red, Learning can be yellow etc.)
     * apply a different font to the title and make it bold;
     * consider applying a small amount of box-shadow to the card container.

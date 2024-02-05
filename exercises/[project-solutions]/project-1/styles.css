@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+   padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/* layout */
+.card {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+}
+
+img {
+    width: 100%;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+}
+
+.content {
+    padding: 0.5em 1em;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+}
+
+.tag {
+    padding: 0.2em 0.8em;
+    margin: 5px 0;
+}
+
+.author-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.author-photo img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.author-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* design */
+
+#container {
+    background: #bde0fe;
+}
+.card {
+    background: white;
+}
+
+.card, .photo img {
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.tag {
+    border-radius: 15px;
+    font-size: 0.8rem;
+}
+
+.coding {
+    background: #ffafcc;
+}
+.learning {
+    background: #a2d2ff;
+}
+
+.desc {
+    font-size: 0.9rem;
+}
+.desc::first-letter {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.author-name {
+    font-size: 0.7rem;
+}
