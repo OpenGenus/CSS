@@ -8,7 +8,7 @@ The objective of this coding challenge is to craft a website that presents a con
 
 2. Choose a conference topic (this will probably be a bit of a fantasy topic for most of us, but can actually be used as a template if you happen to organize something similar in the future)
 
-3. Plan the content you intend to feature on the conference website. Consider organizing information into sections such as "Speakers," "Agenda," "Prizes," and any other pertinent details that you feel people should know. 
+3. Plan the content you intend to feature on the conference website. Consider organizing information into sections such as "Speakers," "Agenda," "Prizes," and any other pertinent details that you feel people should know about your event. 
 
 4. Develop the structure of your HTML page.
 
