@@ -10,7 +10,7 @@ We will be building a blog preview card, which is, essentially, a concise overvi
 
 3. Start developing the HTML structure for your blog card. It should contain:
     * a representative picture of the article;
-    * various 'tags' that represent categories it could be found in (such as 'Coding', 'Learning' etc.);
+    * various 'tags' that represent categories it could be found in (such as 'Coding', 'Learning', 'Entertainment' etc.);
     * publish date;
     * title;
     * description;

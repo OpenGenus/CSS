@@ -11,7 +11,7 @@ We'll be building a testimonials section, which is, essentially, a concise prese
     * title;
     * description.
 
-3. Using grid, the 6 testimonials shall be placed 3 on each line, as such:
+3. Using grid, the 5 testimonials shall be placed 3 on each line, as such:
     * the first shall only occupy the first line, but be double in width;
     * the second shall only occupy 1x in width and 1x in height;
     * the third shall be 1x in width, but occupy both lines;

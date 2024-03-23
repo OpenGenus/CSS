@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product listing page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <ul>
+      <div class="left-header">
+        <li><div class="logo">O</div></li>
+        <li>Shop</li>
+        <li>Services</li>
+        <li>Contact</li>
+      </div>
+      <div class="right-header">
+        <li><i class="fa fa-shopping-cart"></i>
+        </li>
+      </div>
+    </ul>
+  </div>
+    <div class="container">
+      <div class="product-listing-container">
+        <div class="slider-container">
+          <div class="slider">
+            <div class="slides">
+              <div class="slide" id="slide1">
+                <img src="tshirt1-edited3.png" alt="">
+                <a class="slide-prev" href="#slide2" title="Previous"></a>
+                <a class="slide-next" href="#slide2" title="Next"></a>
+              </div>
+              <div class="slide" id="slide2">
+                <img src="tshirt2-edited3.png" alt="">
+                <a class="slide-prev" href="#slide1" title="Previous"></a>
+                <a class="slide-next" href="#slide1" title="Next"></a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="info-container">
+          <div class="categories">
+            <div class="category category-1">Clothing</div>
+            <div class="arrow"> > </div>
+            <div class="category category-2">OpenGenus T-shirt</div>
+          </div>
+          <div class="title-container">
+            <div class="title">OpenGenus T-shirt - 2 colors</div>
+          </div>
+          <div class="price-container">
+            <div class="price">$20.00</div>
+            <div class="sale-icon">SALE</div>
+          </div>
+          <div class="measurements-container">
+            <div class="measurements small-container">
+              <div class="info-text text-small">Small</div>
+              <div class="checkbox-container">
+                <input type="checkbox" id="small-wo-stickers">
+                <label for="small-wo-stickers">Small Black</label>
+              </div>
+              <div class="checkbox-container">
+                <input type="checkbox" id="small-w-stickers">
+                <label for="small-w-stickers">Small White</label>
+              </div>
+            </div>
+            <div class="measurements medium-container">
+              <div class="info-text text-medium">Medium</div>
+              <div class="checkbox-container">
+                <input type="checkbox" id="medium-wo-stickers">
+                <label for="medium-wo-stickers">Medium Black</label>
+              </div>
+              <div class="checkbox-container">
+                <input type="checkbox" id="medium-w-stickers">
+                <label for="medium-w-stickers">Medium White</label>
+              </div>
+            </div>
+            <div class="measurements large-container">
+              <div class="info-text text-large">Large</div>
+              <div class="checkbox-container">
+                <input type="checkbox" id="large-wo-stickers">
+                <label for="large-wo-stickers">Large Black</label>
+              </div>
+              <div class="checkbox-container">
+                <input type="checkbox" id="large-w-stickers">
+                <label for="large-w-stickers">Large White</label>
+              </div>
+
+            </div>
+          </div>
+          <button class="add-to-cart-btn">ADD TO CART</button>
+          <div class="details-section">
+            <details>
+              <summary>
+                <span>Description</span> <span>+</span>
+              </summary>
+              <p>Lorem ipsum dolor...</p>
+            </details>
+            <details>
+              <summary>
+                <span>Specifications</span> <span>+</span>
+              </summary>
+              <p>Lorem ipsum dolor... </p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
